@@ -1,0 +1,31 @@
+.HTML - Semântica / Sentido
+usado para criar o código principal
+
+Ctrl + Shift + p: envelopar uma escrita com um código
+
+<html>: linguagem
+<head>: cabeçalio
+<body>: corpo
+<nav>: navegar
+<ul>
+<li>
+<a>: adicionar links / <a href= html do link> txt...
+<header>: banner
+<div>: divisória para separar o codigo
+<main>: Conteudo do site
+<section>: seções
+<h1/2/3>: títulos
+<p>: texto
+
+.CSS - Não semântica / Forma
+usado para dar estilos e valores aos html's
+
+
+SITES PARA PESQUISAR IMAGENS SEM DIREITOS AUTORAIS
+
+unsplash.com
+paxels.com
+freepic
+inconarchive.com (icones)
+favicon.io (transforma imagens e textos em icones)
+https://itch.io/game-assets/free

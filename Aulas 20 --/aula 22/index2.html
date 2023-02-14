@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: lightyellow;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+        header {
+            margin: 15px;
+            background-color: azure;
+            border: 5px solid black;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.788);
+            
+        }
+        header > h1 {
+            margin: 0px;
+        }
+        nav > a {
+            padding: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            color: blueviolet;
+        }
+        nav > a:active {
+            color:red;
+        }
+        main {
+            background-color: azure;
+            margin: 15px;
+            border: 5px solid black;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.788);
+        }
+        .aside {
+            background-color: beige;
+            text-align: center;
+            width: 300px;
+            padding: 5px;
+            margin: auto;
+        }
+        footer > p {
+            text-align: center;
+            width: 100px;
+            margin: auto;
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.438);
+        }
+        footer > p:hover {
+            color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Testando as tags</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article class="h2">
+                <h2>Meu h2 dentro do article.</h2>
+            </article>
+        </section>
+        <section class="paragrafo">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam aliquid expedita numquam eum, architecto, quae alias sint enim pariatur nihil natus facere est! Quaerat labore, sint exercitationem ad optio nobis?</p>
+            <aside class="aside">
+                <p><code>Escrito por Roberto da silva silveira</code></p>
+            </aside>
+        </section>
+    </main>
+    <footer>
+        <p><code>Wrote by JOKU</code></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonter em CSS</title>
+    <style>
+        @import url(https://fonts.google.com/specimen/Work+Sans?hl=pt-br&query=work+sans);
+        body {
+            font-family: "Work Sans", Arial, Helvetica, sans-serif;
+            /* 
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+            
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+
+        font-weight: normal;
+        /* lighter normal bold bolder / 100 - 900 */
+        font-style: normal;     
+    }
+    h1 {
+        /* shorthand font 
+        - font style -> font weight -> font size -> font family
+
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 3em;
+        font-style: italic;
+        */
+        font: italic bold 3em arial;
+    }
+
+    h2 {
+        font: bold 2em Arial;
+    }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas ducimus dolorum illo eligendi, necessitatibus optio expedita id aut maiores alias eos modi excepturi quis asperiores exercitationem veritatis obcaecati ipsa delectus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic pariatur optio aperiam numquam doloremque ipsum, doloribus incidunt ducimus animi consequatur dolores ex veniam accusamus asperiores? Mollitia possimus laboriosam optio maxime? Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quas esse vitae impedit deleniti repellendus voluptatem aspernatur voluptate dolor illo rerum harum nemo, explicabo odio, facere doloremque, accusamus consequuntur obcaecati. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus porro eveniet unde recusandae corporis odio velit error molestias saepe maiores suscipit consectetur illum nobis earum, possimus doloremque facilis soluta dolores.
+    </p>
+    <h2>Subtitulo do ex</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est necessitatibus, maxime omnis iure quasi asperiores molestiae, exercitationem laboriosam vitae officia consequuntur vel voluptatibus et voluptate cumque, porro dolorem delectus enim!</p>
+</body>
+</html>

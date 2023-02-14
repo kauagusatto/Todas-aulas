@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em várias dispositivos ou apenas diminua o navegador.</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/m.png" type="image/png">
+        <img src="imagens/g.png" alt="imagem flexivel">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender a reproduzir audios em HTML</p>
+    <audio preload="metadata" controls loop>
+        <source src="./imagens/Akashi Cruz - China in Box  Feat @LilChainz and @fuub (Prod 9RECORDS).mp3" type="audio/mpeg">
+        <source src="imagens/Akashi-Cruz-China-in-Box-Feat-_LilChainz-and-_fuub-_Prod-9RECORDS_.ogg" type="audio/ogg">
+        <p>Caso a música não apareça, é por seu navegador não ser compativel, para download da música, <a href="/imagens/Akashi Cruz - China in Box  Feat @LilChainz and @fuub (Prod 9RECORDS).mp3">clique aqui!</a></p>
+    </audio>
+</body> 
+</html>
